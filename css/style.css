@@ -1,0 +1,229 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+/*--------------------------header---------------------------*/
+header{
+    height: 160px;
+    width: 100%;
+}
+.container {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+header img {
+    margin-left: 90px;
+    margin-top: 30px;
+}
+/*--------------------------------------------------------*/
+
+/*----------------------index------------------------*/
+.body {
+	height: 1070px;
+	background: #DDDCDC;
+}
+
+.body h1 {
+	margin-left: 260px;
+	margin-top: 60px;
+	position: absolute;
+	font-size: 36pt; 
+}
+
+.moped {
+	height: 800px;
+	width: 1300px;
+	background-image: url(../images/Moto.png);
+	background-size: cover;
+	position: absolute;
+	margin-top: 190px;
+}
+
+.moped a {
+	border: 1px white solid;
+	text-decoration: none;
+	color: white;
+	font-size: 36pt;
+	padding: 30px 50px;
+	position: absolute;
+	margin-top: 470px;
+	margin-left: 390px;
+	transition: .3s;
+}
+
+.moped a:hover {
+	background: white;
+	color: black;
+	transform: translateY(-7px);
+}
+/*----------------------------------------------*/
+
+/*-----------------footer-----------------------------*/
+footer {
+	height: 300px;
+	background: black;
+	padding-top: 30px;
+	color: white;
+	font-size: 15pt;
+}
+
+h3 {
+	font-size: 30pt;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+.support {
+	float: left;
+}
+
+.line {
+	float: left;
+	height: 4px;
+	width: 50px;
+	background: white;
+    margin-top: 10px;
+}
+
+.email {
+	margin-top: 50px;
+	margin-bottom: 7px;
+}
+
+.work {
+	margin-top: 0px;
+}
+
+.delivery {
+	float: right;
+	margin-top: 70px;
+}
+
+.delivery p {
+	margin: 0px;
+    font: 20px;
+    color: #babbbc;
+}
+
+.footer_bottom {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	float: left;
+	font-size: 18pt;
+	margin-top: 90px;
+}
+
+.footer_bottom a {
+	text-decoration: none;
+	color: white;
+    font-size: 19px;
+}
+.footer_bottom p {
+    font-size: 19px;
+}
+
+/*----------------------------------------------*/
+
+/*---------------------style_ord-------------------------*/
+.make_order{
+    margin-left: 90px;
+    font: 35px sans-serif;
+}
+.order_form{
+    margin-left: 90px;
+    width: 380px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+  font: 15px sans-serif;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: black;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+	background: #525760;
+	transform: translateY(-2px);
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.description{
+    position: absolute;
+    margin-left: 570px;
+}
+.description p{
+    font: 16px sans-serif;
+}
+.bike_order{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    margin-left: 900px;
+}
+/*----------------------------------------------*/
+
+/*----------------------publoff------------------------*/
+#puboff{
+    height: auto;
+    background: #DDDCDC; 
+}
+#puboff h2 {
+	margin-left: 90px;
+	font: 32px sans-serif; 
+    padding-top: 20px;
+}
+#puboff p {
+    margin-left: 90px;
+    font: 16px sans-serif;
+    padding-top: 20px;
+}
+/*----------------------------------------------*/
+
+
+
+/*----------------------about------------------------*/
+#about{
+    height: 380px;
+    background: #DDDCDC; 
+}
+#about h2 {
+	margin-left: 90px;
+	font: 32px sans-serif; 
+    padding-top: 20px;
+}
+#about p {
+    margin-left: 90px;
+    font: 16px sans-serif;
+    padding-top: 20px;
+}
+/*----------------------------------------------*/
+
+
